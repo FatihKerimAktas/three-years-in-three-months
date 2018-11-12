@@ -7,23 +7,22 @@ using System.Threading.Tasks;
 namespace Three_Years_In_Three_Months.Data_Types.Bilal {
 
     /**
-        Write a C# Sharp program that takes three letters as input and display them in reverse order.
-        
-        Test Data
-        Enter letter: b 
-        Enter letter: a
-        Enter letter: t
-        
-        Expected Output :
-        t a b
-    */
+        Write a C# Sharp program that takes two numbers as input and perform an operation (+,-,*,x,/) 
+        on them and displays the result of that operation.
 
-    class Exercise01 {
+        Test Data
+        Input first number: 20
+        Input operation: - 
+        Input second number: 12
+    
+        Expected Output :
+        20 - 12 = 8
+     */
+
+    class Exercise04 {
 
         private void Main(string[] args) {
             // Implement code here
         }
     }
-
-
 }
