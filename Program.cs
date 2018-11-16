@@ -9,7 +9,7 @@ using Three_Years_In_Three_Months.Data_Types.Fatih;
 namespace Three_Years_In_Three_Months {
     class Program {
         static void Main(string[] args) {
-            Exercise02 ex = new Exercise02();
+            Exercise03 ex = new Exercise03();
             ex.RunCode();
         }
     }

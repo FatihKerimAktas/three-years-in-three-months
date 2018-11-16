@@ -7,8 +7,9 @@ using System.Threading.Tasks;
 namespace Three_Years_In_Three_Months.Data_Types.Fatih {
 
     /**
-        Write a C# Sharp program that takes two numbers as input and perform an operation (+,-,*,x,/) 
-        on them and displays the result of that operation.
+        Write a C# Sharp program that takes two numbers as input 
+        and perform an operation (+,-,*,x,/) on them 
+        and displays the result of that operation.
 
         Test Data
         Input first number: 20
@@ -20,6 +21,12 @@ namespace Three_Years_In_Three_Months.Data_Types.Fatih {
      */
 
     class Exercise04 {
+
+        public void RunCode() {
+
+
+
+        }
 
         private void Main(string[] args) {
             // Implement code here
