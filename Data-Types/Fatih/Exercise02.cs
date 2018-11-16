@@ -25,8 +25,25 @@ namespace Three_Years_In_Three_Months.Data_Types.Fatih {
 
     public class Exercise02 {
 
-        private void Main(string[] args) {
-            // Implement code here
+        public void RunCode() {
+
+            Console.Write("Number to Show ");
+            var numToShow = Console.ReadLine();
+            Console.Write("width ");
+            var width = Convert.ToInt16(Console.ReadLine());
+
+            for(int i = width; i >0; i--) { 
+                for(int j = width; j > 0; j--) {
+
+                    Console.Write(numToShow);
+
+                }
+                Console.WriteLine();
+                width--;
+            }
+            Console.ReadKey();
+
         }
+
     }
 }

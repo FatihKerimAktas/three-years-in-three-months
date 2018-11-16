@@ -20,9 +20,23 @@ namespace Three_Years_In_Three_Months.Data_Types.Fatih {
 
     class Exercise01 {
 
-        private void Main(string[] args) {
-            // Implement code here
+        public void RunCode() {
+
+            Console.Write("Letter 1 ");
+            var letter1 = Console.ReadLine();
+            Console.Write("Letter 2 ");
+            var letter2 = Console.ReadLine();
+            Console.Write("Letter 3 ");
+            var letter3 = Console.ReadLine();
+
+            var allChars = letter1 + letter2 + letter3;
+
+            Console.WriteLine(String.Concat(allChars.OrderBy(c => c)));
+
+            Console.ReadKey();
+
         }
+
     }
 
 
